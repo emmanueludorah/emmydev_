@@ -1,8 +1,6 @@
-# NexTemp | A Next.js Personal Web App
+# Emmydev_ | A Next.js Personal Web Portfolio
 
-![NexTemp - A Next.js Personal Web App](https://github.com/lilxyzz/nextemp/blob/main/public/NexTemp-cover.png)
-
-NexTemp - A bespoke **template** for your **next** web project. NexTemp is a personal portfolio and blog theme built around Next.js. It features a modern, clean, and responsive design, perfect for developers or anyone looking to showcase their work and ideas. For more themes and updates, stay tuned.
+Emmydev - A bespoke **template** for your **next** web project. Emmydev is a personal portfolio built around Next.js. It features a modern, clean, and responsive design, perfect for developers or anyone looking to showcase their work and ideas. For more themes and updates, stay tuned.
 
 ## 📚 Tech Stack
 Next.js 14+
@@ -13,20 +11,11 @@ Framer Motion 11+
 ## ✨ Features
 - Dark and light color mode 
 - Reusable Components
-- Blog post creation
 - Animations with Framer Motion
 - Tailwind CSS integration
 - Mobile-first responsive layout
 - Sitemap support
 - 95+ Lighthouse
-
-## 🚀 NexTemp Pro Coming Soon
-**Features**
-- SEO optimised 
-- Post tags and categories
-- Integration with Hashnode CMS for easy post publishing
-- PWA support
-  
 
 ### 🛠️ Requirements
 
