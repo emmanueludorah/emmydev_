@@ -76,7 +76,7 @@ const Navbar = () => {
   return (
     <header
       className="w-full flex items-center justify-between px-32 pt-10 pb-8 font-medium dark:text-light
-    lg:px-16 relative z-1 md:px-12 sm:px-8
+    xl:px-24 lg:px-16 md:px-12 sm:px-6
     "
     >
       <button
@@ -164,9 +164,8 @@ const Navbar = () => {
       </div>
       {isOpen ? (
         <motion.div
-          className="min-w-[70vw] sm:min-w-[90vw] h-[75vh] flex justify-between items-center flex-col fixed top-1/2 left-1/2 -translate-x-1/2
-      -translate-y-1/2
-      py-32 bg-dark/90 dark:bg-light/75 rounded-lg z-50 backdrop-blur-md
+          className="w-[90vw] max-w-md h-auto max-h-[80vh] flex justify-between items-center flex-col fixed top-1/2 left-1/2 -translate-x-1/2
+      -translate-y-1/2 px-6 py-12 sm:px-4 bg-dark/90 dark:bg-light/75 rounded-lg z-50 backdrop-blur-md overflow-y-auto
       "
           initial={{ scale: 0, x: "-50%", y: "-50%", opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
