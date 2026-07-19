@@ -1,7 +1,6 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
-import profile from "../../public/images/profile/Emmy.jpg";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Skills from "@/components/Skills";
@@ -94,8 +93,10 @@ export default function About() {
               <Image
                 className="h-auto w-full rounded-2xl border-2 border-solid border-dark"
                 priority={true}
-                src={profile}
-                alt="Travis Lord"
+                src="/images/profile/dev.jpg"
+                alt="Emmy profile photo"
+                width={600}
+                height={750}
                 sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"
