@@ -62,7 +62,7 @@ const Education = () => {
             schoolLink="https://miva.edu.ng/"
             time="2025 - 2029"
             address="Nigeria"
-            details="Built a strong foundation in problem-solving, software development, and digital communication, with focus on web technologies, user experience, and modern development practices."
+            details="Developing a strong foundation in problem-solving, software development, and digital communication, with focus on web technologies, user experience, and modern development practices."
           />
         </ul>
       </div>
