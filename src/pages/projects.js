@@ -7,6 +7,8 @@ import Link from "next/link";
 import { HireMe2 } from "@/components/HireMe2";
 import proj1 from "../../public/images/projects/portofolio.png";
 
+import proj2 from "../../public/images/projects/weather app.png";
+
 const FeaturedProject = ({
   type,
   title,
@@ -148,10 +150,10 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                tools="HTML | CSS | JavaScript | Gatsby"
+                tools="Next.js | Tailwind CSS | TypeScript | Open-Meteo API"
                 title="Weather Forecast"
-                img={proj1}
-                link="https://emmydev.me"
+                img={proj2}
+                link="https://weather-forecast-two-teal.vercel.app/"
               />
             </div>
           </div>

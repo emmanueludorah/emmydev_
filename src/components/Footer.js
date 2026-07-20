@@ -3,6 +3,8 @@ import React from "react";
 import Layout from "./Layout";
 
 const Footer = () => {
+  const whatsappLink = "https://wa.me/09016484712";
+
   return (
     <footer
       className="w-full border-t-0 border-solid border-dark
@@ -13,7 +15,15 @@ const Footer = () => {
         <span>&copy; {new Date().getFullYear()}</span>
 
         <div className="flex items-center lg:py-2 ml-2">
-          Built by Emmy
+          Built by{" "}
+          <Link
+            href={"https://wa.me/09016484712"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-1 hover:underline"
+          >
+            Emmy
+          </Link>
         </div>
       </Layout>
     </footer>

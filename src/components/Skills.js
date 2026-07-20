@@ -50,11 +50,12 @@ const Skills = () => {
         <Skill name="TypeScript" x="0vw" y="12vw" />
         <Skill name="Next.js" x="-20vw" y="-15vw" />
         <Skill name="CSS" x="15vw" y="-12vw" />
-        <Skill name="Git" x="-35vw" y="-5vw" />
+        <Skill name="Git/GitHub" x="-29vw" y="-5vw" />
         <Skill name="UI / UX" x="32vw" y="-5vw" />
         <Skill name="GitHub" x="0vw" y="-20vw" />
         <Skill name="React" x="-25vw" y="18vw" />
-        <Skill name="Framer Motion" x="28vw" y="18vw" />
+        <Skill name="Framer Motion" x="22vw" y="17vw" />
+        <Skill name="API Integration" x="0vw" y="25vw" />
       </div>
     </>
   );

@@ -65,7 +65,7 @@ export default function About() {
               <p className="font-medium ">
                 I'm Emmanuel Udorah, a passionate Frontend developer dedicated to creating modern, responsive,
                 and user-friendly web experiences. I specialize in transforming designs into interactive
-                websites using technologies such as HTML 5, CSS, JavaScript, Typescript, React, Next.js, and Tailwind CSS. 
+                websites using technologies such as HTML5, CSS3, JavaScript (ES6+), Git & GitHub, Typescript, React, Next.js, Tailwind CSS and REST APIs. 
               </p>
               <p className="my-4 font-medium">
                 With a strong focus on performance, accessibility, and clean code, I build intuitive interfaces
