@@ -66,8 +66,7 @@ I'm One Message Away"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
-          <div className="grid w-full grid-cols-8 gap-16 sm:gap-8 relative flex w-full flex-col items-center justify-center rounded-2xl rounded-br-2xl border border-solid border-dark bg-light p-6 shadow-2xl dark:border-light dark:bg-dark xs:p-4">
-            <div className="absolute top-0 -right-5 -z-10 h-[103%] w-[101.5%] rounded-[2rem] rounded-br-3xl bg-dark dark:bg-light md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]" />
+          <div className="grid w-full grid-cols-8 gap-16 sm:gap-8 relative flex w-full flex-col items-center justify-center rounded-2xl bg-transparent p-6 xs:p-4">
             <div className="col-span-4 flex flex-col items-start justify-start xl:col-span-4 md:order-1 md:col-span-8">
               <h2 className="my-4 text-2xl font-bold capitalize text-primaryDark dark:text-primaryDark">
                 What’s Next?
@@ -81,7 +80,7 @@ I'm One Message Away"
               </p>
             </div>
             <div className="relative col-span-4 h-max xl:col-span-4 md:col-span-8 md:order-2">
-              <div className="grid w-full grid-cols-2 sm:gap-6 relative flex w-full flex-col items-center justify-center rounded-2xl rounded-br-2xl border  border-solid  border-dark bg-light p-6   dark:border-light dark:bg-dark xs:p-4">
+              <div className="grid w-full grid-cols-2 sm:gap-6 relative flex w-full flex-col items-center justify-center rounded-2xl bg-transparent p-6 xs:p-4">
                 <div className="col-span-8 h-max xl:col-span-6 md:col-span-8 md:order-2">
                   <form
                     name="contact-form"
@@ -107,7 +106,7 @@ I'm One Message Away"
                           name="name"
                           required
                           autoComplete="name"
-                          className="mt-1 p-2 w-full border border-solid border-dark rounded-md bg-light dark:border-light dark:bg-dark dark:text-light"
+                          className="mt-1 w-full rounded-md border border-dark/20 bg-transparent px-3 py-2 outline-none shadow-[inset_0_0_0_1px_rgba(0,0,0,0.08)] dark:border-light/30 dark:text-light dark:shadow-[inset_0_0_0_1px_rgba(255,255,255,0.25)]"
                           onChange={handleChange}
                         />
                       </label>
@@ -121,7 +120,7 @@ I'm One Message Away"
                           name="email"
                           required
                           autoComplete="off"
-                          className="mt-1 p-2 w-full border border-solid border-dark rounded-md bg-light dark:border-light dark:bg-dark dark:text-light"
+                          className="mt-1 w-full rounded-md border border-dark/20 bg-transparent px-3 py-2 outline-none shadow-[inset_0_0_0_1px_rgba(0,0,0,0.08)] dark:border-light/30 dark:text-light dark:shadow-[inset_0_0_0_1px_rgba(255,255,255,0.25)]"
                           onChange={handleChange}
                         />
                       </label>
@@ -138,7 +137,7 @@ I'm One Message Away"
                           id="message"
                           required
                           rows="4"
-                          className="mt-1 p-2 w-full border border-solid border-dark rounded-md bg-light dark:border-light dark:bg-dark dark:text-light"
+                          className="mt-1 w-full rounded-md border border-dark/20 bg-transparent px-3 py-2 outline-none shadow-[inset_0_0_0_1px_rgba(0,0,0,0.08)] dark:border-light/30 dark:text-light dark:shadow-[inset_0_0_0_1px_rgba(255,255,255,0.25)]"
                           onChange={handleChange}
                         ></textarea>
                       </label>
@@ -147,7 +146,7 @@ I'm One Message Away"
                     <div className="col-span-1 p-2">
                       <button
                         type="submit"
-                        className="px-4 py-2 font-bold capitalize text-light bg-dark border border-2 border-solid border-dark dark:border-light dark:bg-light rounded-md hover:bg-transparent hover:text-dark dark:hover:text-light dark:hover:bg-dark dark:hover:border-light dark:hover:bg-dark dark:text-dark dark:hover:text-light"
+                        className="px-4 py-2 font-semibold capitalize text-light bg-dark rounded-md hover:bg-transparent hover:text-dark dark:bg-light dark:text-dark dark:hover:text-light dark:hover:bg-dark"
                       >
                         Send it!
                       </button>

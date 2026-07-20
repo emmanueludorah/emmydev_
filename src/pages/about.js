@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import { useEffect, useRef } from "react";
 import Skills from "@/components/Skills";
+import Education from "@/components/Education";
 import Experience from "@/components/Experience";
 import AnimatedText from "@/components/AnimatedText";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -80,18 +81,14 @@ export default function About() {
               </p>
             </div>
             <div
-              className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
-            bg-light p-8 dark:border-light dark:bg-dark
-            xl:col-span-4 md:col-span-8 md:order-1
-            "
+              className="relative col-span-3 h-max overflow-hidden rounded-2xl border-2 border-solid border-dark
+            xl:col-span-4 md:col-span-8 md:order-1 dark:border-light"
             >
               <div
-                className="absolute  top-0 -right-3 -z-10 h-[103%] w-[102%]  rounded-[2rem] rounded-br-3xl 
-                bg-dark
-        dark:bg-light  "
+                className="absolute top-0 -right-3 -z-10 h-[103%] w-[102%] rounded-[2rem] rounded-br-3xl bg-dark dark:bg-light"
               />
               <Image
-                className="h-auto w-full rounded-2xl border-2 border-solid border-dark"
+                className="h-auto w-full rounded-2xl object-cover"
                 priority={true}
                 src="/images/profile/dev.jpg"
                 alt="Emmy profile photo"
@@ -146,6 +143,7 @@ export default function About() {
           </div>
 
           <Skills />
+          <Education />
           <Experience />
         </Layout>
       </main>

@@ -2,10 +2,8 @@ import AnimatedText from "@/components/AnimatedText";
 import { HireMe } from "@/components/HireMe";
 import Layout from "@/components/Layout";
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 import TransitionEffect from "@/components/TransitionEffect";
-import profilePic from "../../public/images/profile/dev.jpg";
 
 export default function Home() {
   return (
@@ -24,19 +22,6 @@ export default function Home() {
       >
         <Layout className="!pt-24 md:!pt-16 sm:!pt-28">
           <div className="flex w-full items-start justify-between md:flex-col pt-10 pb-24">
-            <div className="w-1/2 lg:hidden md:flex flex self-center max-h-fit">
-              {
-                <Image
-                  priority={true}
-                  src={profilePic}
-                  alt="image"
-                  className="h-auto w-100"
-                  height={340}
-                  width={340}
-                  sizes="33vw"
-                />
-              }
-            </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
                 text="Hey, I’m Emmy"
