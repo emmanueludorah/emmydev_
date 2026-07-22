@@ -9,6 +9,8 @@ import proj1 from "../../public/images/projects/portofolio.png";
 
 import proj2 from "../../public/images/projects/weather app.png";
 
+import proj3 from "../../public/images/projects/admin dashboard.png";
+
 const FeaturedProject = ({
   type,
   title,
@@ -154,6 +156,14 @@ export default function Projects() {
                 title="Weather Forecast"
                 img={proj2}
                 link="https://weather-forecast-two-teal.vercel.app/"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                tools="Next.js | Tailwind CSS | TypeScript"
+                title="Admin Dashboard"
+                img={proj3}
+                link="https://admin-dashboard-tau-three-49.vercel.app/dashboard"
               />
             </div>
           </div>
