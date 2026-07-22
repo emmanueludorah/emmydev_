@@ -161,7 +161,7 @@ export default function Projects() {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 tools="Next.js | Tailwind CSS | TypeScript"
-                title="Admin Dahboard"
+                title="Admin Dashboard"
                 img={proj3}
                 link="https://admin-dashboard-tau-three-49.vercel.app/dashboard"
               />
