@@ -9,7 +9,7 @@ import proj1 from "../../public/images/projects/portofolio.png";
 
 import proj2 from "../../public/images/projects/weather app.png";
 
-import proj3 from "../../public/images/projects/admin dashboard.png";
+import proj3 from "../../public/images/projects/admin-dashboard.png";
 
 const FeaturedProject = ({
   type,
